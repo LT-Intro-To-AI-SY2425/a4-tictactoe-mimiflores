@@ -29,6 +29,7 @@ class Dog:
 
 mydog = Dog("logan", "black", 7, "salmon")
 chrisdog = Dog("luna", "black and white", 6, "tortillas")
+kepa = Dog("kepa", "black and brown", 4, "chicken nuggets")
 
 print(mydog)
 print(chrisdog)
@@ -36,5 +37,5 @@ print(chrisdog)
 mydog.play_fetch(20)
 chrisdog.play_fetch(3)
 
-print(mydog)
+print(kepa)
 print(f"{chrisdog.name} has played fetch {chrisdog.fetch_count} times")
